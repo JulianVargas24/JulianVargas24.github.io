@@ -57,7 +57,7 @@
       "url": "https://hospitalpuertomontt.gob.cl/",
       "startDate": "2025-02-10",
       "endDate": "2025-03-20",
-      "summary": ".",
+      "summary": "Participación en actividades de soporte y redes en departamento TI del hospital base de Puerto Montt.",
       "responsibilities": [
         "Recepcion de tickets de problemas informaticos.",
         "Reemplazo de hardware en mal estado.",
@@ -66,7 +66,7 @@
         "Instalación y activación de programas."
       ],
       "skills": {
-        "React": "simple-icons:react",
+        "Capacitación": "material-symbols-light:account-box",
         "MUI": "simple-icons:mui",
         "React Hook Form": "simple-icons:reacthookform",
         "React Query": "simple-icons:reactquery",
