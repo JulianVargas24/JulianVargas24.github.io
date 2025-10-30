@@ -199,7 +199,25 @@
       "icon": "mdi:github",
       "level": "Advanced",
       "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+    },
+
+    {
+      "name":"Power BI",
+      "icon": "simple-icons:powerbi"
+    },
+
+    {
+      "name":"DAX",
+      "icon": "mdi:chart-line",
+      "ETL": "mdi:data-matrix"
+    },
+
+    {
+      "name":"ETL",
+      "icon": "mdi:data-matrix"
     }
+    
+    
 
 
   ],
@@ -222,7 +240,7 @@
         "Creación de vistas SQL y medidas DAX.",
         "Ingesta incremental con Python.",
         "DirectQuery para visualizaciones dinámicas.",
-        "Dashboards con métricas clave e insights accionables."
+        "Dashboards con métricas clave e insights."
       ],
       "stack": {
       "SQL Server": "simple-icons:liquibase",
