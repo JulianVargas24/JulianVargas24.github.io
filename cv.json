@@ -178,8 +178,7 @@
 
     {
       "name":"DAX",
-      "icon": "mdi:chart-line",
-      "ETL": "mdi:data-matrix"
+      "icon": "mdi:chart-line"
     },
 
     {
