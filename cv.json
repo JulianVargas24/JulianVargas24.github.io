@@ -108,97 +108,67 @@
   "skills": [
     {
       "name": "HTML",
-      "icon": "simple-icons:html5",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend"]
+      "icon": "simple-icons:html5"
+
     },
     {
       "name": "CSS",
-      "icon": "ri:css3-fill",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      "icon": "ri:css3-fill"
+
     },
     {
       "name": "Php",
-      "icon": "simple-icons:php",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
+      "icon": "simple-icons:php"
+
     },
     {
       "name": "Bootstrap",
-      "icon": "simple-icons:bootstrap",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
+      "icon": "simple-icons:bootstrap"
+
     },
     {
       "name": "JavaScript",
-      "icon": "simple-icons:javascript",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+      "icon": "simple-icons:javascript"
+
     },
     {
       "name": "PowerBi",
-      "icon": "simple-icons:simpleanalytics",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
+      "icon": "simple-icons:simpleanalytics"
+
     },
     {
       "name": "SQL Server",
-      "icon": "simple-icons:liquibase",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
+      "icon": "simple-icons:liquibase"
+
     },
     {
       "name": "PhpMyAdmin",
-      "icon": "simple-icons:phpmyadmin",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
+      "icon": "simple-icons:phpmyadmin"
+
     },
     {
       "name": "Trello",
-      "icon": "simple-icons:trello",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Static Generation"]
+      "icon": "simple-icons:trello"
     },
     {
       "name": "Excel",
-      "icon": "simple-icons:googleforms",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Static Generation"]
+      "icon": "simple-icons:googleforms"
+
     },
     {
       "name": "Python",
-      "icon": "simple-icons:python",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Static Generation"]
+      "icon": "simple-icons:python"
+
     },
 
     {
       "name": "Git",
-      "icon": "mdi:git",
-      "level": "Advanced",
-      "keywords": ["Version Control", "Collaboration", "Source Code"]
+      "icon": "mdi:git"
+
     },
     {
       "name": "GitHub",
-      "icon": "mdi:github",
-      "level": "Advanced",
-      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+      "icon": "mdi:github"
     },
 
     {
@@ -216,8 +186,6 @@
       "name":"ETL",
       "icon": "mdi:data-matrix"
     }
-    
-    
 
 
   ],
