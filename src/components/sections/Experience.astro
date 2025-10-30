@@ -6,7 +6,7 @@ import { Icon } from 'astro-icon/components'
 const millisecondsInYear = 1000 * 60 * 60 * 24 * 365
 ---
 
-<Section className={Astro.props.className} title="Experience">
+<Section className={Astro.props.className} title="Experiencia">
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities,  url, skills, location, location_type }) => {
       const startYear = new Date(startDate).getFullYear()
