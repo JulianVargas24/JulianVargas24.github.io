@@ -8,7 +8,7 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://JulianVargas24.github.io',
+  site: 'https://julianvargas24.github.io',
   integrations: [
     tailwind(),
     mdx(),
