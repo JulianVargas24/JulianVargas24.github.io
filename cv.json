@@ -96,19 +96,12 @@
 
       "skills": {
         
-        "Gin": "simple-icons:gin",
+        "Php": "simple-icons--php",
         "HTML5": "simple-icons:html5",
         "CSS3": "ri:css3-fill",
-        "Tailwind": "mdi:tailwind",
+        "PhpMyAdmin": "simple-icons--phpmyadmin",
         "Bootstrap": "simple-icons:bootstrap",
         "JavaScript ": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
-        "Next-Js": "simple-icons:nextdotjs",
-        "React": "simple-icons:react",
-        "NodeJS": "ri:nodejs-line",
-
-        "Bruno": "simple-icons:bruno",
-        "Redux": "simple-icons:redux",
         "Git": "mdi:git",
         "GitHub": "mdi:github"
       }
