@@ -4,7 +4,7 @@
     "name": "Julián Gaez",
     "label": "Ingeniero informático",
     "animated_main_label": "informático",
-    "animated_secondary_initial_label": "software",
+    "animated_secondary_initial_label": "Ingeniero",
     "animated_secondary_final_label": "fullstack",
     "image": "/cara.jpg",
     "email": "anmolsingh51200@gmail.com",
@@ -12,10 +12,10 @@
     "summary": "Ingeniero en Informática orientado al análisis de datos. Experiencia en SQL, Python y Power BI para modelar, limpiar y visualizar información. Autodidacta, analítico y enfocado en la mejora continua de procesos a través de la data.",
     "theme": "platinum",
     "location": {
-      "address": "Panipat",
-      "city": "Haryana",
+      "address": "",
+      "city": "Puerto Montt",
       "countryCode": "CL",
-      "region": "India"
+      "region": "Chile"
     },
     "profiles": [
       {
@@ -50,18 +50,20 @@
   },
   "work": [
     {
-      "name": "Mline",
-      "position": "Desarrollador web",
-      "location_type": "Remote",
+      "name": "Hospital Puerto Montt",
+      "position": "Soporte y redes",
+      "location_type": "Presencial",
       "location": "Puerto Montt",
-      "url": "https://www.linkedin.com/company/mline-spa-soluciones-en-gesti%C3%B3n/?originalSubdomain=cl",
-      "startDate": "2024-08-01",
-      "endDate": null,
-      "summary": "Contributing to a centralized ecommerce platform to manage multiple ecommerce stores from a single interface, including order and inventory management.",
+      "url": "https://hospitalpuertomontt.gob.cl/",
+      "startDate": "2025-02-10",
+      "endDate": "2025-03-20",
+      "summary": ".",
       "responsibilities": [
-        "Developing and maintaining the frontend of a centralized ecommerce platform.",
-        "Implementing features for order management, inventory control, and other ecommerce functionalities.",
-        "Collaborating with the team to create a scalable and user-friendly platform."
+        "Recepcion de tickets de problemas informaticos.",
+        "Reemplazo de hardware en mal estado.",
+        "Mantencion de impresoras, anexos, puntos de red y perifericos.",
+        "Capacitación a personal.",
+        "Instalación y activación de programas."
       ],
       "skills": {
         "React": "simple-icons:react",
@@ -78,7 +80,7 @@
     {
       "name": "Mline",
       "position": "Desarrollador de software",
-      "location_type": "Remote",
+      "location_type": "Remoto",
       "location": "Puerto Montt",
       "url": "https://www.linkedin.com/company/mline-spa-soluciones-en-gesti%C3%B3n/?originalSubdomain=cl",
       "startDate": "2024-08-15",
@@ -86,16 +88,14 @@
       "summary": "Desarrollar soluciones efectivas y de valor para un sistema de punto de venta, además de creación de módulos para mejorar experiencia del usuario.",
 
       "responsibilities": [
-        "Built and maintained both front-end and back-end components of a production-ready eCommerce web app using modern web technologies.",
-        "Focused on building scalable, responsive, and maintainable front-end features, ensuring high performance and usability.",
-        "Integrated payment gateways and developed order management features to support real-time order processing.",
-        "Collaborated with clients and team members to align technical solutions with business needs.",
-        "Ensured clean, modular code and implemented best practices for performance optimization and maintainability.",
-        "Developed and connected RESTful APIs to handle key business logic and data flow between client and server."
+        "Auditoria de fallos y documentación.",
+        "Desarrollo de módulos y de validaciones en formularios.",
+        "Administración de la base de datos del sistema POS.",
+        "Creacion de respaldo y versionado del sistema POS."
       ],
 
       "skills": {
-        "Go": "simple-icons:go",
+        
         "Gin": "simple-icons:gin",
         "HTML5": "simple-icons:html5",
         "CSS3": "ri:css3-fill",
