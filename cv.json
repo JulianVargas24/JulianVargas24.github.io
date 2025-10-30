@@ -118,8 +118,8 @@
       "keywords": ["Web Development", "Frontend", "Responsive Design"]
     },
     {
-      "name": "Tailwind",
-      "icon": "mdi:tailwind",
+      "name": "Php",
+      "icon": "simple-icons:php",
       "level": "Advanced",
       "keywords": [
         "Web Development",
