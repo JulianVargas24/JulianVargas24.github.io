@@ -158,7 +158,7 @@
       ]
     },
     {
-      "name": "Sql Server",
+      "name": "SQL Server",
       "icon": "simple-icons:liquibase",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
@@ -225,8 +225,8 @@
         "Desarrollo de dashboards con métricas clave e insights accionables."
       ],
       "stack": {
-      "SQL": "mdi:database",
-      "Python": "ri:python-fill",
+      "SQL Server": "simple-icons:liquibase",
+      "Python": "simple-icons:python",
       "Power BI": "simple-icons:powerbi",
       "DAX": "mdi:chart-line",
       "ETL": "mdi:data-matrix"
