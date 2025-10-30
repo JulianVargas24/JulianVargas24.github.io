@@ -219,10 +219,10 @@
       "isActive": true,
       "description": "Modelé y normalicé la base de datos, creando vistas en SQL y medidas en DAX. Implementé ingesta incremental en Python y visualizaciones en Power BI con conexión DirectQuery casi en tiempo real.",
       "highlights": [
-        "Creación de vistas SQL y medidas DAX optimizadas.",
-        "Implementación de ingesta incremental con Python.",
-        "Conexión de Power BI en modo DirectQuery para visualizaciones dinámicas.",
-        "Desarrollo de dashboards con métricas clave e insights accionables."
+        "Creación de vistas SQL y medidas DAX.",
+        "Ingesta incremental con Python.",
+        "DirectQuery para visualizaciones dinámicas.",
+        "Dashboards con métricas clave e insights accionables."
       ],
       "stack": {
       "SQL Server": "simple-icons:liquibase",
