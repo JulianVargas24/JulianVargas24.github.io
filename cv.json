@@ -96,10 +96,10 @@
 
       "skills": {
         
-        "Gin": "simple-icons--php",
+        "Gin": "simple-icons:php",
         "HTML5": "simple-icons:html5",
         "CSS3": "ri:css3-fill",
-        "Tailwind": "simple-icons--phpmyadmin",
+        "Tailwind": "simple-icons:phpmyadmin",
         "Bootstrap": "simple-icons:bootstrap",
         "JavaScript ": "simple-icons:javascript",
         "Git": "mdi:git",
