@@ -1,33 +1,19 @@
+// astro.config.mjs
 // @ts-check
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
-import astroIcon from 'astro-icon';
+import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
-import playformCompress from "@playform/compress";
-import vercel from "@astrojs/vercel/serverless";
+import astroIcon from 'astro-icon';
 
-// https://astro.build/config
+// ❗ User site: tu repo es julianvargas24.github.io → base en '/' y build estático
 export default defineConfig({
   site: 'https://julianvargas24.github.io',
+  base: '/',            // o simplemente omitir (por defecto '/')
+  output: 'static',     // ✅ clave para GitHub Pages
   integrations: [
     tailwind(),
     mdx(),
-    astroIcon({
-      include: {
-        mdi: ["*"],
-        ri: ['*'],
-        'simple-icons': ['*'],
-      },
-    }),
-    playformCompress({
-      CSS: false,
-      Image: false,
-      Action: {
-        Passed: async () => true,  
-      },
-    })
-  ],
-  output: 'server',
-  adapter: vercel(),
-  
+    astroIcon()
+  ]
+  // ❌ NADA de adapter vercel ni output: 'server'
 });
