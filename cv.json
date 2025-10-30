@@ -215,9 +215,9 @@
   ],
   "projects": [
     {
-      "name": "pixelsaffron",
+      "name": "Salmones JG",
       "isActive": true,
-      "description": "A landing page for a startup with beautiful design and smooth animations.",
+      "description": "Modelé y normalicé la base de datos, creando vistas en SQL y medidas en DAX. Implementé ingesta incremental en Python y visualizaciones en Power BI con conexión DirectQuery casi en tiempo real.",
       "highlights": [
         "GSAP animations",
         "Beautiful design",
@@ -228,7 +228,7 @@
         "GSAP": "simple-icons:greensock",
         "Tailwind": "mdi:tailwind"
       },
-      "url": "https://pixelsaffron.in"
+      "url": "https://github.com/JulianVargas24/Analisis-datos-SalmonesJG"
     },
 {
   "name": "ParticleFX",
