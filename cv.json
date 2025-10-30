@@ -12,9 +12,10 @@
     "summary": "Ingeniero en Informática orientado al análisis de datos. Experiencia en SQL, Python y Power BI para modelar, limpiar y visualizar información. Autodidacta, analítico y enfocado en la mejora continua de procesos a través de la data.",
     "theme": "platinum",
     "location": {
-      "city": "Puerto Montt",
-      "address": "",
-      "region": "Chile"
+      "address": "Panipat",
+      "city": "Haryana",
+      "countryCode": "CL",
+      "region": "India"
     },
     "profiles": [
       {
@@ -78,7 +79,7 @@
       "name": "Mline",
       "position": "Desarrollador de software",
       "location_type": "Remote",
-      "location": "Chile",
+      "location": "Puerto Montt",
       "url": "https://www.linkedin.com/company/mline-spa-soluciones-en-gesti%C3%B3n/?originalSubdomain=cl",
       "startDate": "2024-08-15",
       "endDate": "2025-01-5",
