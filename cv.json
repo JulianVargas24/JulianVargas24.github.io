@@ -66,15 +66,10 @@
         "Instalación y activación de programas."
       ],
       "skills": {
-        "Capacitación": "material-symbols-light:account-box",
-        "MUI": "simple-icons:mui",
-        "React Hook Form": "simple-icons:reacthookform",
-        "React Query": "simple-icons:reactquery",
-        "Zod": "simple-icons:zod",
-        "TypeScript": "simple-icons:typescript",
-        "CSS3": "ri:css3-fill",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github"
+        "Capacitación": "simple-icons:cachet",
+        "Mantención": "simple-icons:pcgamingwiki",
+        "Actualizaciones": "simple-icons:abdownloadmanager",
+        "Redes": "simple-icons:cardano"
       }
     },
     {
