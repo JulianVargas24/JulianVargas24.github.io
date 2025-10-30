@@ -96,7 +96,8 @@
         "CSS3": "ri:css3-fill",
         "PhpMyAdmin": "simple-icons:phpmyadmin",
         "Bootstrap": "simple-icons:bootstrap",
-        "JavaScript ": "simple-icons:javascript",
+        "JavaScript": "simple-icons:javascript",
+        "Trello": "simple-icons:trello",
         "Git": "mdi:git",
         "GitHub": "mdi:github"
       }
@@ -146,8 +147,8 @@
       "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "TypeScript",
-      "icon": "simple-icons:typescript",
+      "name": "PowerBi",
+      "icon": "simple-icons:simpleanalytics",
       "level": "Advanced",
       "keywords": [
         "Web Development",
@@ -157,65 +158,36 @@
       ]
     },
     {
-      "name": "Next-Js",
-      "icon": "simple-icons:nextdotjs",
+      "name": "Sql Server",
+      "icon": "simple-icons:liquibase",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
     },
     {
-      "name": "Astro",
-      "icon": "simple-icons:astro",
+      "name": "PhpMyAdmin",
+      "icon": "simple-icons:phpmyadmin",
       "level": "Intermediate",
       "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
     },
     {
-      "name": "React",
-      "icon": "simple-icons:react",
+      "name": "Trello",
+      "icon": "simple-icons:trello",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "Static Generation"]
     },
     {
-      "name": "Go-lang",
-      "icon": "simple-icons:go",
+      "name": "Excel",
+      "icon": "simple-icons:googleforms",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "Static Generation"]
     },
     {
-      "name": "Gin",
-      "icon": "simple-icons:gin",
+      "name": "Python",
+      "icon": "simple-icons:python",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "Static Generation"]
     },
-    {
-      "name": "Node",
-      "icon": "ri:nodejs-line",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
-    },
-    {
-      "name": "PNPM",
-      "icon": "simple-icons:pnpm",
-      "level": "Beginner",
-      "keywords": ["Package Manager", "Web Development", "Frontend", "Backend"]
-    },
-    {
-      "name": "Java",
-      "icon": "ri:java-line",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Backend"]
-    },
-    {
-      "name": "MongoDB",
-      "icon": "simple-icons:mongodb",
-      "level": "Beginner",
-      "keywords": ["Databases", "File", "Data Storage", "Backend"]
-    },
-    {
-      "name": "PostgreSQL",
-      "icon": "simple-icons:postgresql",
-      "level": "Intermediate",
-      "keywords": ["Backend", "Databases", "SQL", "Relational Database"]
-    },
+
     {
       "name": "Git",
       "icon": "mdi:git",
@@ -227,43 +199,9 @@
       "icon": "mdi:github",
       "level": "Advanced",
       "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
-    },
-    {
-      "name": "AWS",
-      "icon": "simple-icons:amazonaws",
-      "level": "Beginner",
-      "keywords": ["Cloud Computing", "Backend", "Infrastructure"]
-    },
-    {
-      "name": "Docker",
-      "icon": "mdi:docker",
-      "level": "Intermediate",
-      "keywords": ["Virtual Environments", "Backend"]
-    },
-    {
-      "name": "Shell",
-      "icon": "simple-icons:shell",
-      "level": "Beginner",
-      "keywords": ["Scripting", "Automation"]
-    },
-    {
-      "name": "Linux",
-      "icon": "simple-icons:linux",
-      "level": "Intermediate",
-      "keywords": ["OS", "Scripting", "Automation"]
-    },
-    {
-      "name": "Swagger",
-      "icon": "simple-icons:swagger",
-      "level": "Beginner",
-      "keywords": ["API", "Documentation", "Web Development", "Backend"]
-    },
-    {
-      "name": "Postman",
-      "icon": "simple-icons:postman",
-      "level": "Intermediate",
-      "keywords": ["API", "Testing", "Web Development", "Backend"]
     }
+
+
   ],
   "languages": [
     {
