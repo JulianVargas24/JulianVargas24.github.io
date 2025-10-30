@@ -7,13 +7,13 @@
     "animated_secondary_initial_label": "Ingeniero",
     "animated_secondary_final_label": "fullstack",
     "image": "/cara.jpg",
-    "email": "anmolsingh51200@gmail.com",
-    "url": "https://anmol.pro",
+    "email": "vargasjulian.2207@gmail.com",
+    "url": "",
     "summary": "Ingeniero en Informática orientado al análisis de datos. Experiencia en SQL, Python y Power BI para modelar, limpiar y visualizar información. Autodidacta, analítico y enfocado en la mejora continua de procesos a través de la data.",
     "theme": "platinum",
     "location": {
-      "address": "",
-      "city": "Puerto Montt",
+      "address": "Puerto Montt",
+      "city": "Los lagos",
       "countryCode": "CL",
       "region": "Chile"
     },
