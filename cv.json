@@ -1,21 +1,19 @@
 {
   "analyticsCode": "",
   "basics": {
-    "name": "Anmol Singh",
-    "label": "Software Developer",
-    "animated_main_label": "developer",
+    "name": "Julián Gaez",
+    "label": "Ingeniero informático",
+    "animated_main_label": "informático",
     "animated_secondary_initial_label": "software",
     "animated_secondary_final_label": "fullstack",
-    "image": "/pfp.jpeg",
+    "image": "/cara.jpg",
     "email": "anmolsingh51200@gmail.com",
     "url": "https://anmol.pro",
-    "summary": "Full Stack developer with experience building and deploying production-ready web apps in freelance teams. Delivered two client websites and worked closely with teams to create scalable, maintainable solutions.",
+    "summary": "Ingeniero en Informática orientado al análisis de datos. Experiencia en SQL, Python y Power BI para modelar, limpiar y visualizar información. Autodidacta, analítico y enfocado en la mejora continua de procesos a través de la data.",
     "theme": "platinum",
     "location": {
-      "address": "Panipat",
-      "city": "Haryana",
-      "countryCode": "IN",
-      "region": "India"
+      "city": "Puerto Montt",
+      "region": "Chile"
     },
     "profiles": [
       {
@@ -29,15 +27,15 @@
         "network": "GitHub",
         "icon": "mdi:github",
         "color": "#929AAB",
-        "username": "Anmol-TheDev",
-        "url": "https://github.com/Anmol-TheDev"
+        "username": "JulianVargas24",
+        "url": "https://github.com/JulianVargas24"
       },
       {
         "network": "Email",
         "icon": "ri:mail-fill",
         "color": "#D44638",
-        "username": "anmolsingh",
-        "url": "mailto:anmolsingh51200@gmail.com"
+        "username": "JulianVargas24",
+        "url": "mailto:vargasjulian.2207@gmail.com"
       },
       {
         "network": "GitHub Stars",
@@ -50,12 +48,12 @@
   },
   "work": [
     {
-      "name": "Advika Innovate",
-      "position": "Frontend Developer",
+      "name": "Mline",
+      "position": "Desarrollador web",
       "location_type": "Remote",
-      "location": "IN",
-      "url": "https://advikainnovate.com/",
-      "startDate": "2025-07-01",
+      "location": "Puerto Montt",
+      "url": "https://www.linkedin.com/company/mline-spa-soluciones-en-gesti%C3%B3n/?originalSubdomain=cl",
+      "startDate": "2024-08-01",
       "endDate": null,
       "summary": "Contributing to a centralized ecommerce platform to manage multiple ecommerce stores from a single interface, including order and inventory management.",
       "responsibilities": [
@@ -76,14 +74,14 @@
       }
     },
     {
-      "name": "PixelSaffron",
-      "position": "Full-Stack Developer",
+      "name": "Mline",
+      "position": "Desarrollador de software",
       "location_type": "Remote",
-      "location": "IN",
-      "url": "https://pixelsaffron.in/",
-      "startDate": "2024-10-03",
-      "endDate": "2025-06-30",
-      "summary": "Led front-end development for a full-stack eCommerce platform built for a Mumbai-based clothing brand. Implemented core features like order management, secure payment integration, and responsive UI for seamless user experience.",
+      "location": "Chile",
+      "url": "https://www.linkedin.com/company/mline-spa-soluciones-en-gesti%C3%B3n/?originalSubdomain=cl",
+      "startDate": "2024-08-15",
+      "endDate": "2025-01-5",
+      "summary": "Desarrollar soluciones efectivas y de valor para un sistema de punto de venta, además de creación de módulos para mejorar experiencia del usuario.",
 
       "responsibilities": [
         "Built and maintained both front-end and back-end components of a production-ready eCommerce web app using modern web technologies.",
