@@ -219,14 +219,17 @@
       "isActive": true,
       "description": "Modelé y normalicé la base de datos, creando vistas en SQL y medidas en DAX. Implementé ingesta incremental en Python y visualizaciones en Power BI con conexión DirectQuery casi en tiempo real.",
       "highlights": [
-        "GSAP animations",
-        "Beautiful design",
-        "Smooth animations"
+        "Creación de vistas SQL y medidas DAX optimizadas.",
+        "Implementación de ingesta incremental con Python.",
+        "Conexión de Power BI en modo DirectQuery para visualizaciones dinámicas.",
+        "Desarrollo de dashboards con métricas clave e insights accionables."
       ],
       "stack": {
-        "Vue": "simple-icons:vuedotjs",
-        "GSAP": "simple-icons:greensock",
-        "Tailwind": "mdi:tailwind"
+      "SQL": "mdi:database",
+      "Python": "ri:python-fill",
+      "Power BI": "simple-icons:powerbi",
+      "DAX": "mdi:chart-line",
+      "ETL": "mdi:data-matrix"
       },
       "url": "https://github.com/JulianVargas24/Analisis-datos-SalmonesJG"
     },
