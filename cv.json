@@ -235,10 +235,10 @@
       "isActive": true,
       "description": "Modelé y normalicé la base de datos, creando vistas en SQL y medidas en DAX. Implementé ingesta incremental en Python y visualizaciones en Power BI con conexión DirectQuery casi en tiempo real.",
       "highlights": [
-        "Creación de vistas SQL y medidas DAX.",
-        "Ingesta incremental con Python.",
-        "DirectQuery para visualizaciones dinámicas.",
-        "Dashboards con métricas clave e insights."
+        "🧮 Creación de vistas SQL y medidas DAX.",
+        "🔁 Ingesta incremental con Python.",
+        "⚡ DirectQuery para visualizaciones dinámicas.",
+        "📊 Dashboards con métricas clave e insights."
       ],
       "stack": {
       "SQL Server": "simple-icons:liquibase",
@@ -250,30 +250,30 @@
       "url": "https://github.com/JulianVargas24/Analisis-datos-SalmonesJG"
     },
 {
-  "name": "ParticleFX",
+  "name": "Churn y retención retail",
   "isActive": true,
-  "description": "A zero-dependency JavaScript library to create interactive particle effects from images using canvas. Easily works with React, Vue, or plain HTML. Customize animations, physics, and user interactions.",
+  "description": "Analítica de Churn & Retención en Retail con Python + SQL Server Express + Power BI (DirectQuery). Pipeline automatizado (.bat + Task Scheduler) que limpia, carga y actualiza datos, calcula KPIs de riesgo y habilita acciones sobre clientes de ALTO riesgo en visualizaciones casi en tiempo real.",
   "highlights": [
-    "🖼️ Turn Images into Particles",
-    "🌀 Hover & Click Effects",
-    "🎨 Custom Shapes & Filters",
-    "⚙️ Configurable Physics",
-    "📱 Responsive Design",
-    "📸 Export as PNG",
-    "📦 TypeScript Ready",
-    "✨ Works Without Any Framework"
+    "🧹 Limpieza y preparación de datos con Python (ETL).",
+    "🗄️ Carga a SQL Server y estructuración de tablas/vistas.",
+    "🧮 Cálculo de KPIs de riesgo de churn y métricas de retención.",
+    "⚡ Power BI en DirectQuery para visualizaciones dinámicas.",
+    "🔁 Ejecución automatizada con script .bat + Task Scheduler.",
+    "🎯 Segmentación accionable de clientes en alto riesgo.",
+    "📊 Dashboard con insights claros para decisiones comerciales."
   ],
   "stack": {
-    "JavaScript": "simple-icons:javascript",
-    "TypeScript": "simple-icons:typescript",
-    "CanvasAPI": "mdi:draw",
-    "HTML5": "simple-icons:html5"
+    "SQL Server": "simple-icons:liquibase",
+      "Python": "simple-icons:python",
+      "Power BI": "simple-icons:powerbi",
+      "DAX": "mdi:chart-line",
+      "ETL": "mdi:data-matrix"
   },
-  "url": "https://particlefx.anmol.pro"
+  "url": "https://github.com/JulianVargas24/Analisis-datos-Churn-retencion-retail"
 },
     {
-      "name": "Social Media WebApp",
-      "isActive": false,
+      "name": "POS Mline",
+      "isActive": true,
       "description": "A modern social media application designed for real-time interaction and user engagement",
       "highlights": [
         "📝 CRUD Posts (Create, Read, Update, Delete)",
@@ -284,13 +284,16 @@
       ],
 
       "stack": {
-        "Next-Js": "simple-icons:nextdotjs",
-        "Redux": "simple-icons:redux",
-        "PostGres": "simple-icons:postgresql",
-        "Socket.io": "simple-icons:socketdotio",
-        "Go-lang": "simple-icons:go",
-        "Docker": "mdi:docker"
-      }
+        "Php": "simple-icons:php",
+        "JavaScript": "simple-icons:javascript",
+        "HTML": "simple-icons:html5",
+        "CSS": "ri:css3-fill",
+        "SQL Server": "simple-icons:liquibase",
+        "Bootstrap": "simple-icons:bootstrap",
+        "Git": "mdi:git",
+        "Trello": "simple-icons:trello"
+      },
+      "url": "https://github.com/JulianVargas24/POS-MLINE"
     },
     {
       "name": "Notbasic",
