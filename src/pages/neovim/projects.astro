@@ -6,51 +6,48 @@ import { Icon } from 'astro-icon/components';
 
 <Layout title="Projects">
   <ul id="project-list">
-    {projects && projects.map(({ url, description, highlights, name, isActive, stack }) => {
-      return (
-        <li
-          class="mb-6 project-item leading-6 nvim-line"
-          class:list={{ 'active': isActive }}
-          data-href={isActive ? url : undefined}
-        >
-          <div class="flex gap-2">
-            {isActive ? (
-              <a
-                class="group flex items-center gap-1 text-lg decoration-dotted underline-offset-[5px] hover:underline transition-all duration-200 text-blue project-url"
-                href={url}
-                title={`Ver ${name}`}
-                target="_blank"
-              >
-                {name}
-                <Icon name="ri:arrow-right-s-line" width="24" height="24" class="text-skin-hue transition ease-linear group-hover:translate-x-1"></Icon>
-              </a>
-            ) : (
-              <span class="text-lg text-blue">{name}</span>
-            )}
-          </div>
+    {projects && projects.map(({ url, description, highlights, name, isActive, stack }) => (
+      <li
+        class="mb-6 project-item leading-6 nvim-line"
+        class:list={{ 'active': isActive }}
+        data-href={isActive ? url : undefined}
+      >
+        <div class="flex gap-2">
+          {isActive ? (
+            <a
+              class="group flex items-center gap-1 text-lg decoration-dotted underline-offset-[5px] hover:underline transition-all duration-200 text-blue project-url"
+              href={url}
+              title={`Ver ${name}`}
+              target="_blank"
+            >
+              {name}
+              <Icon name="ri:arrow-right-s-line" width="24" height="24" class="text-skin-hue transition ease-linear group-hover:translate-x-1" />
+            </a>
+          ) : (
+            <span class="text-lg text-blue">{name}</span>
+          )}
+        </div>
 
-          <div>
-            {highlights && highlights.map(
-              (highlight) =>
-                <span class="text-gray-600">{highlight.slice(3)}. </span> {/* Slice para quitar emojis; quítalo si quieres mostrarlos */}
-            )}
-          </div>
+        <div>
+          {highlights && highlights.map((highlight) => (
+            <span class="text-gray-600">{highlight.slice(3)}. </span>
+          ))}
+        </div>
 
-          <p class="text-gray-500">
-            {description}
-          </p>
+        <p class="text-gray-500">
+          {description}
+        </p>
 
-          <ul class="flex print:hidden flex-wrap gap-2 mt-6" aria-label="Technologies used">
-            {stack && Object.entries(stack).map(([label], index) => (
-              <li class="cursor-default bg-transparent border-nvim-green/60 text-green flex items-center border-solid border rounded-md px-2 py-1 text-xs backdrop-blur-sm">
-                <span>〔{index}〕</span>
-                <span>{label}</span>
-              </li>
-            ))}
-          </ul>
-        </li>
-      )
-    })}
+        <ul class="flex print:hidden flex-wrap gap-2 mt-6" aria-label="Technologies used">
+          {stack && Object.entries(stack).map(([label], index) => (
+            <li class="cursor-default bg-transparent border-nvim-green/60 text-green flex items-center border-solid border rounded-md px-2 py-1 text-xs backdrop-blur-sm">
+              <span>〔{index}〕</span>
+              <span>{label}</span>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))}
   </ul>
 </Layout>
 
