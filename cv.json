@@ -2,7 +2,7 @@
   "analyticsCode": "",
   "basics": {
     "name": "Julián Gaez",
-    "label": "Ingeniero informático",
+    "label": "Ingeniero Informático",
     "animated_main_label": "informático",
     "animated_secondary_initial_label": "Ingeniero",
     "animated_secondary_final_label": "fullstack",
@@ -13,7 +13,7 @@
     "theme": "platinum",
     "location": {
       "address": "Puerto Montt",
-      "city": "Los lagos",
+      "city": "Los Lagos",
       "countryCode": "CL",
       "region": "Chile"
     },
@@ -254,11 +254,11 @@
   "isActive": true,
   "description": "Analítica de churn en retail con Python + SQL Server + Power BI (DirectQuery); pipeline automatizado que limpia/carga datos, calcula KPIs de riesgo y habilita acciones en tiempo casi real.",
   "highlights": [
-    "🧹 Limpieza y preparación de datos con Python.",
+    "🧹 Limpieza y preparación de datos en Python.",
     "🗄️ Carga a SQL Server de tablas/vistas.",
-    "🧮 KPIs de riesgo de churn y retención de clientes.",
+    "🧮 KPIs de riesgo y retención de clientes.",
     "⚡ Power BI en DirectQuery.",
-    "🔁 Automatización con script .bat + Task Scheduler.",
+    "🔁 Automatización script .bat + Task Scheduler.",
     "📊 Dashboards para decisiones comerciales."
   ],
   "stack": {
@@ -273,13 +273,12 @@
     {
       "name": "POS Mline",
       "isActive": true,
-      "description": "A modern social media application designed for real-time interaction and user engagement",
+      "description": "Sistema de Punto de Venta (POS) para pymes que centraliza ventas, inventario, descuentos y control de vencimientos, con roles de usuario. Permite emitir boletas/facturas en PDF con código de barras y generar reportes para la administración.",
       "highlights": [
-        "📝 CRUD Posts (Create, Read, Update, Delete)",
-        "💬 Real-time Chat (1:1 and group messaging)",
-        "👥 Follow System to connect with others",
-        "❤️ Like and react to posts",
-        "📞 Group Voice/Video Calling"
+        "📝 CRUDs para administración de la empresa.",
+        "🧾 Creación de facturas, PDF, boletas y códigos barras",
+        "🔐 Sistema de autenticación y roles",
+        "🗄️ Administración y consultas a la base de datos"
       ],
 
       "stack": {
