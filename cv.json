@@ -252,15 +252,14 @@
 {
   "name": "Churn y retención retail",
   "isActive": true,
-  "description": "Analítica de Churn & Retención en Retail con Python + SQL Server Express + Power BI (DirectQuery). Pipeline automatizado (.bat + Task Scheduler) que limpia, carga y actualiza datos, calcula KPIs de riesgo y habilita acciones sobre clientes de ALTO riesgo en visualizaciones casi en tiempo real.",
+  "description": "Analítica de churn en retail con Python + SQL Server + Power BI (DirectQuery); pipeline automatizado que limpia/carga datos, calcula KPIs de riesgo y habilita acciones en tiempo casi real.",
   "highlights": [
-    "🧹 Limpieza y preparación de datos con Python (ETL).",
-    "🗄️ Carga a SQL Server y estructuración de tablas/vistas.",
-    "🧮 Cálculo de KPIs de riesgo de churn y métricas de retención.",
-    "⚡ Power BI en DirectQuery para visualizaciones dinámicas.",
-    "🔁 Ejecución automatizada con script .bat + Task Scheduler.",
-    "🎯 Segmentación accionable de clientes en alto riesgo.",
-    "📊 Dashboard con insights claros para decisiones comerciales."
+    "🧹 Limpieza y preparación de datos con Python.",
+    "🗄️ Carga a SQL Server de tablas/vistas.",
+    "🧮 KPIs de riesgo de churn y retención de clientes.",
+    "⚡ Power BI en DirectQuery.",
+    "🔁 Automatización con script .bat + Task Scheduler.",
+    "📊 Dashboards para decisiones comerciales."
   ],
   "stack": {
     "SQL Server": "simple-icons:liquibase",
