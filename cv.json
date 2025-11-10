@@ -276,9 +276,9 @@
       "description": "Sistema de Punto de Venta (POS) para pymes que centraliza ventas, inventario, descuentos y control de vencimientos, con roles de usuario. Permite emitir boletas/facturas en PDF con código de barras y generar reportes para la administración.",
       "highlights": [
         "📝 CRUDs para administración de la empresa.",
-        "🧾 Creación de facturas, PDF, boletas y códigos barras",
-        "🔐 Sistema de autenticación y roles",
-        "🗄️ Administración y consultas a la base de datos"
+        "🧾 Creación de facturas, boletas y códigos barras.",
+        "🔐 Sistema de autenticación y roles.",
+        "🗄️ Administración y consultas a la base de datos."
       ],
 
       "stack": {
@@ -315,47 +315,6 @@
         "Mongodb": "simple-icons:mongodb"
       },
       "url": "https://notbasic.in/"
-    },
-    {
-      "name": "Music WebApp",
-      "isActive": true,
-      "description": "A fun and smooth music streaming app where users can discover, play, and enjoy their favorite songs anytime. It features playlists, search, and seamless audio playback for a great listening experience.",
-      "highlights": [
-        "🔥 Firebase Integration",
-        "🔐 User Authentication",
-        "🎵 Playlist Management",
-        "🔍 Song Search"
-      ],
-
-      "stack": {
-        "React": "simple-icons:react",
-        "tailwind": "mdi:tailwind",
-        "Rest-Api": "mdi:api"
-      },
-      "github": "https://github.com/Anmol-TheDev/Music_app",
-      "url": "https://music.anmol.pro"
-    },
-    {
-      "name": "Stone-Su-man",
-      "isActive": true,
-      "description": "An online shop for selling unique hand-painted stone art, where customers can easily browse, order, and enjoy one-of-a-kind creations.",
-      "highlights": [
-        "🎨 Showcase Hand-Painted Stone Art",
-        "🛒 Easy Product Browsing & Cart",
-        "💳 Secure Online Payments",
-        "📦 Order & Delivery Tracking",
-        "📸 High-Quality Artwork Images",
-        "📱 Mobile-Friendly Design"
-      ],
-      "stack": {
-        "React": "simple-icons:react",
-        "TypeScript": "simple-icons:typescript",
-        "tailwind": "mdi:tailwind",
-        "Vite": "simple-icons:vite",
-        "PNPM": "simple-icons:pnpm",
-        "Hostinger": "simple-icons:hostinger"
-      },
-      "url": "https://stone-su-man.com/"
     }
   ]
 }
