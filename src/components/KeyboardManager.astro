@@ -7,31 +7,43 @@ import { Icon } from 'astro-icon/components'
 
 const { profiles } = basics
 
-// Íconos para las redes (puedes cambiarlos por los tuyos)
+// Íconos completos
 const SOCIAL_ICONS: SocialIcon = {
-  GitHub: `<svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 ..."/></svg>`,
-  LinkedIn: `<svg fill="currentColor" height="16" width="16" viewBox="0 0 24 24"><path d="M22.2,0H1.8C0.8,0,0,0.8,0,1.8v20.5c0,1,0.8,1.8,1.8,1.8h20.5c1,0,1.8-0.8,1.8-1.8V1.8C24,0.8,23.2,0,22.2,0z M7.2,20.4 H3.5V9h3.6V20.4z M5.3,7.4c-1.1,0-2.1-0.9-2.1-2.1s0.9-2.1,2.1-2.1s2.1,0.9,2.1,2.1S6.5,7.4,5.3,7.4z M20.5,20.5h-3.6v-6.3 c0-1.8-0.8-2.4-1.8-2.4c-1.1,0-2.1,0.8-2.1,2.5v6.2H9.3V9h3.5v1.6h0c0.3-0.7,1.6-1.9,3.4-1.9c2,0,4.2,1.2,4.2,4.7V20.5z"/></svg>`,
-  "X / Twitter": `<svg fill="currentColor" stroke="currentColor" height="16" viewBox="0 0 24 24"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809 ..."/></svg>`
+  GitHub: `<svg width="16" height="16" viewBox="0 0 24 24"><title>GitHub</title><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>`,
+  LinkedIn: `<svg fill="currentColor" height="16" width="16" viewBox="0 0 24 24" xml:space="preserve" stroke="currentColor"><g id="SVGRepo_iconCarrier"><g id="social-linkedin"><path d="M22.2,0H1.8C0.8,0,0,0.8,0,1.8v20.5c0,1,0.8,1.8,1.8,1.8h20.5c1,0,1.8-0.8,1.8-1.8V1.8C24,0.8,23.2,0,22.2,0z M7.2,20.4 H3.5V9h3.6V20.4z M5.3,7.4c-1.1,0-2.1-0.9-2.1-2.1s0.9-2.1,2.1-2.1s2.1,0.9,2.1,2.1S6.5,7.4,5.3,7.4z M20.5,20.5h-3.6v-6.3 c0-1.8-0.8-2.4-1.8-2.4c-1.1,0-2.1,0.8-2.1,2.5v6.2H9.3V9h3.5v1.6h0c0.3-0.7,1.6-1.9,3.4-1.9c2,0,4.2,1.2,4.2,4.7V20.5z"></path></g></g></svg>`
 }
 
-// Mapeo de perfiles -> comandos (enlaces)
+// Hotkeys por red
 const HOTKEY_BY_NETWORK: Record<string, string> = {
   GitHub: 'ctrl+G',
   LinkedIn: 'ctrl+L',
-  'X / Twitter': 'ctrl+X',
 }
 
-const profilesInfo = profiles.map(({ network, url }) => {
-  const icon = SOCIAL_ICONS[network]
-  return {
+// Solo dejamos GitHub (si existe) y añadimos LinkedIn forzado
+const allowed = new Set(['GitHub'])
+const baseProfiles = profiles
+  .filter(({ network }) => allowed.has(network))
+  .map(({ network, url }) => ({
     id: network,
-    section: 'Enlaces',                // ← nombre de la sección
-    title: network,                    // ← texto mostrado (GitHub, LinkedIn, etc.)
+    section: 'Enlaces',
+    title: network,
     url,
-    icon,
-    hotkey: HOTKEY_BY_NETWORK[network] ?? 'ctrl+U', // fallback
+    icon: SOCIAL_ICONS[network],
+    hotkey: HOTKEY_BY_NETWORK[network] ?? 'ctrl+U',
+  }))
+
+// Añade SIEMPRE LinkedIn con tu URL
+const profilesInfo = [
+  ...baseProfiles,
+  {
+    id: 'LinkedIn',
+    section: 'Enlaces',
+    title: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/julian-gaez-vargas',
+    icon: SOCIAL_ICONS.LinkedIn,
+    hotkey: HOTKEY_BY_NETWORK.LinkedIn
   }
-})
+]
 ---
 
 <footer id='normal-footer' class='print:hidden flex flex-col gap-2'>
@@ -45,7 +57,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
 <div
   id='hotkeypad'
-  data-placeholder='Comandos'                
+  data-placeholder='Comandos'
   data-info={JSON.stringify(profilesInfo)}>
 </div>
 
@@ -68,23 +80,17 @@ const profilesInfo = profiles.map(({ network, url }) => {
   const parsedInfo = JSON.parse(info) as Info[]
   const { email } = basics
 
-  // Convertimos redes en comandos "clicables"
   const data = parsedInfo.map(({ url, hotkey, icon, id, section, title }) => ({
-    id,
-    title,
-    icon,
-    hotkey,
-    section,
+    id, title, icon, hotkey, section,
     handler: () => window.open(url, '_blank'),
   }))
 
-  // Acciones (puedes añadir/quitar/renombrar libremente)
   hotkeypad.setCommands([
-    // ACCIONES
+    // Acciones
     {
       id: 'theme',
       title: 'Modo Oscuro',
-      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.9967C6.47715 21.9967 2 17.5196 2 11.9967C2 6.47386 6.47715 1.9967 12 1.9967C17.5228 1.9967 22 6.47386 22 11.9967 ..."/></svg>`,
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.9967C6.477 21.9967 2 17.5196 2 11.9967S6.477 1.9967 12 1.9967 22 6.4739 22 11.9967 17.523 21.9967 12 21.9967Z"/></svg>`,
       hotkey: 'ctrl+O',
       section: 'Acciones',
       handler: () => document.getElementById('themeSwitch')?.click(),
@@ -92,10 +98,10 @@ const profilesInfo = profiles.map(({ network, url }) => {
     {
       id: 'print',
       title: 'Descargar CV',
-      icon: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0 ..."/></svg>`,
+      icon: `<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0M6.34 18h11.32"/></svg>`,
       hotkey: 'ctrl+P',
       section: 'Acciones',
-      handler: () => window.open('/CV-JulianGaez.pdf', '_blank'), // ← ajusta ruta si es distinta
+      handler: () => window.open('/CV-JulianGaez.pdf', '_blank'),
     },
     {
       id: 'contact',
@@ -109,21 +115,17 @@ const profilesInfo = profiles.map(({ network, url }) => {
       },
     },
 
-    // ENLACES (de perfiles)
+    // Enlaces (GitHub + LinkedIn)
     ...data,
   ])
 
-  // Click del botón flotante (móvil) → abre con Ctrl+K
   document.querySelectorAll('.footer-button').forEach(button => {
     button.addEventListener('click', () => {
-      const event = new KeyboardEvent('keydown', {
-        key: 'K', code: 'KeyK', ctrlKey: true
-      })
+      const event = new KeyboardEvent('keydown', { key: 'K', code: 'KeyK', ctrlKey: true })
       document.dispatchEvent(event)
     })
   })
 
-  // Mejoras del cursor (tu CSS/UX)
   document.querySelectorAll("#hotkeypad li").forEach(li => {
     li.setAttribute("data-ccursor", "lift");
     li.classList.add("modified-cursor-none");
@@ -138,7 +140,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
 <style>
   @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
-
   @media (min-width: 601px) { .footer-button { display: none } }
   @media (max-width: 600px) {
     #normal-footer { display: none }
@@ -148,19 +149,10 @@ const profilesInfo = profiles.map(({ network, url }) => {
       border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer;
     }
   }
-
-  footer {
-    @apply bg-skin-button-accent;
-    position: fixed; bottom: 0; width: 100%; padding-block: 8px; text-align: center; font-size: 0.85rem;
-    view-timeline-name: --revealing; view-timeline-axis: block;
-    animation: linear 0.3s fadeIn; animation-timeline: --revealing; animation-range: entry 100% cover 10%;
-  }
+  footer { @apply bg-skin-button-accent; position: fixed; bottom: 0; width: 100%; padding-block: 8px; text-align: center; font-size: .85rem; }
   kbd { @apply bg-skin-muted; border-radius: 4px; padding: 2px 4px; font-size: 12px }
   #hotkeypad { position: relative; z-index: 9999 }
-  #hotkeypad::before {
-    content: ''; position: fixed; inset: 0; background: rgba(0,0,0,.3);
-    backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); z-index: -1; pointer-events: none;
-  }
+  #hotkeypad::before { content: ''; position: fixed; inset: 0; background: rgba(0,0,0,.3); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); z-index: -1; pointer-events: none; }
   #hotkeypad > div { position: relative; z-index: 0 }
   #hotkeypad {
     --hotkeypad-bg-kbd: rgb(var(--muted));
