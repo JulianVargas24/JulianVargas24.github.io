@@ -59,9 +59,9 @@
       "endDate": "2025-03-20",
       "summary": "Participación en actividades de soporte y redes en departamento TI del hospital base de Puerto Montt.",
       "responsibilities": [
-        "Recepcion de tickets de problemas informaticos.",
+        "Recepción de tickets de problemas informáticos.",
         "Reemplazo de hardware en mal estado.",
-        "Mantencion de impresoras, anexos, puntos de red y perifericos.",
+        "Mantención de impresoras, anexos, puntos de red y periféricos.",
         "Capacitación a personal.",
         "Instalación y activación de programas."
       ],
@@ -286,7 +286,7 @@
         "JavaScript": "simple-icons:javascript",
         "HTML": "simple-icons:html5",
         "CSS": "ri:css3-fill",
-        "SQL Server": "simple-icons:liquibase",
+        "PhpMyAdmin": "simple-icons:phpmyadmin",
         "Bootstrap": "simple-icons:bootstrap",
         "Git": "mdi:git",
         "Trello": "simple-icons:trello"
