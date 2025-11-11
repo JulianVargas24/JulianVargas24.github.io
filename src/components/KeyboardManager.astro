@@ -19,31 +19,29 @@ const HOTKEY_BY_NETWORK: Record<string, string> = {
   LinkedIn: 'ctrl+L',
 }
 
-// Solo dejamos GitHub (si existe) y añadimos LinkedIn forzado
-const allowed = new Set(['GitHub'])
+// --- bloque 1 (desde "const allowed" hasta el cierre del map) ---
+
+// Normaliza URL externas (agrega https:// si falta)
+const toHref = (u: string) =>
+  /^https?:\/\//i.test(u) ? u : `https://${u.replace(/^\/+/, '')}`
+
+// Incluir directamente las redes que leeremos desde @cv
+const allowed = new Set(['GitHub', 'LinkedIn'])
+
 const baseProfiles = profiles
   .filter(({ network }) => allowed.has(network))
   .map(({ network, url }) => ({
     id: network,
     section: 'Enlaces',
     title: network,
-    url,
+    url: toHref(url),
     icon: SOCIAL_ICONS[network],
     hotkey: HOTKEY_BY_NETWORK[network] ?? 'ctrl+U',
   }))
 
-// Solo dejamos Linkedin (si existe) 
-const allowed = new Set(['LinkedIn'])
-const baseProfiles = profiles
-  .filter(({ network }) => allowed.has(network))
-  .map(({ network, url }) => ({
-    id: network,
-    section: 'Enlaces',
-    title: network,
-    url,
-    icon: SOCIAL_ICONS[network],
-    hotkey: HOTKEY_BY_NETWORK[network] ?? 'ctrl+U',
-  }))
+// --- bloque 2 (donde antes construías profilesInfo) ---
+
+const profilesInfo = [...baseProfiles]
 ---
 
 <footer id='normal-footer' class='print:hidden flex flex-col gap-2'>
