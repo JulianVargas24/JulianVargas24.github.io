@@ -287,27 +287,16 @@
       "url": "https://github.com/JulianVargas24/POS-MLINE"
     },
     {
-      "name": "Notbasic",
-      "isActive": true,
-      "description": "An easy-to-use online store where you can browse, shop, and pay securely. It also has a simple admin panel to manage products and track orders smoothly.",
+      "name": "Próximamente...",
+      "isActive": false,
+      "description": "El aprendizaje nunca termina, siempre hay que actualizarse a las últimas tendencias y estar comprometido con el desarrollo personal y profesional.",
       "highlights": [
-        "🛒 Cart Management",
-        "📦 Order Management",
-        "🚚 Delivery Tracking",
-        "👛 Wallet Integration",
-        "💳 Secure Payment Gateway",
-        "🧾 Invoice & Billing",
-        "🛍️ Product Browsing & Filtering",
-        "📊 Admin Dashboard"
+        "🐙 Sígueme en GitHub y redes sociales para novedades",
+        "🚀 ¡Nuevos desafíos se aproximan!"
       ],
       "stack": {
-        "Next-Js": "simple-icons:nextdotjs",
-        "Redux": "simple-icons:redux",
-        "TypeScript": "simple-icons:typescript",
-        "NodeJS": "ri:nodejs-line",
-        "Mongodb": "simple-icons:mongodb"
-      },
-      "url": "https://notbasic.in/"
+        
+      }
 
       
     }
