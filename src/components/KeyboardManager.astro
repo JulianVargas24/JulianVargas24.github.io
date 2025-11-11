@@ -32,18 +32,18 @@ const baseProfiles = profiles
     hotkey: HOTKEY_BY_NETWORK[network] ?? 'ctrl+U',
   }))
 
-// Añade SIEMPRE LinkedIn con tu URL
-const profilesInfo = [
-  ...baseProfiles,
-  {
-    id: 'LinkedIn',
+// Solo dejamos Linkedin (si existe) 
+const allowed = new Set(['LinkedIn'])
+const baseProfiles = profiles
+  .filter(({ network }) => allowed.has(network))
+  .map(({ network, url }) => ({
+    id: network,
     section: 'Enlaces',
-    title: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/julian-gaez-vargas',
-    icon: SOCIAL_ICONS.LinkedIn,
-    hotkey: HOTKEY_BY_NETWORK.LinkedIn
-  }
-]
+    title: network,
+    url,
+    icon: SOCIAL_ICONS[network],
+    hotkey: HOTKEY_BY_NETWORK[network] ?? 'ctrl+U',
+  }))
 ---
 
 <footer id='normal-footer' class='print:hidden flex flex-col gap-2'>
