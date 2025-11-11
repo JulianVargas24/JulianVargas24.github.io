@@ -20,7 +20,7 @@
     "profiles": [
       {
         "network": "Linkedin",
-        "icon": "simple-icons--linkedin",
+        "icon": "simple-icons:linkedin",
         "color": "#1DA1F2",
         "username": "Julian Gáez Vargas",
         "url": "www.linkedin.com/in/julian-gaez-vargas"
