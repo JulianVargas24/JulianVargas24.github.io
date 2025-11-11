@@ -1,7 +1,7 @@
 {
   "analyticsCode": "",
   "basics": {
-    "name": "Julián Gaez",
+    "name": "Julián Gáez",
     "label": "Ingeniero Informático",
     "animated_main_label": "informático",
     "animated_secondary_initial_label": "Ingeniero",
@@ -19,11 +19,11 @@
     },
     "profiles": [
       {
-        "network": "X / Twitter",
-        "icon": "ri:twitter-fill",
+        "network": "Linkedin",
+        "icon": "simple-icons--linkedin",
         "color": "#1DA1F2",
-        "username": "@anmolthedev",
-        "url": "https://x.com/anmolthedev"
+        "username": "Julian Gáez Vargas",
+        "url": "www.linkedin.com/in/julian-gaez-vargas"
       },
       {
         "network": "GitHub",
@@ -38,13 +38,6 @@
         "color": "#D44638",
         "username": "JulianVargas24",
         "url": "mailto:vargasjulian.2207@gmail.com"
-      },
-      {
-        "network": "GitHub Stars",
-        "icon": "ri:star-line",
-        "color": "#FBBC05",
-        "username": "Star on GitHub",
-        "url": "https://github.com/Anmol-TheDev/potfolio2.0"
       }
     ]
   },
