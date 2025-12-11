@@ -224,14 +224,14 @@
   ],
   "projects": [
     {
-      "name": "Salmones JG",
+      "name": "Microsoft Fabric: Smart Device",
       "isActive": true,
-      "description": "Modelé y normalicé la base de datos, creando vistas en SQL y medidas en DAX. Implementé ingesta incremental en Python y visualizaciones en Power BI con conexión DirectQuery casi en tiempo real.",
+      "description": "Ingesta incremental y full load en Lakehouse; transformaciones con PySpark y análisis en SQL Warehouse, orquestado con Pipelines Fabric.",
       "highlights": [
-        "🧮 Creación de vistas SQL y medidas DAX.",
-        "🔁 Ingesta incremental con Python.",
-        "⚡ DirectQuery para visualizaciones dinámicas.",
-        "📊 Dashboards con métricas clave e insights."
+        "📥 Ingesta CSV desde Azure Data Lake con PySpark.",
+        "🔄 Bronze → Silver → Gold; merge_delta_lake para incremental.",
+        "🗄️ Cargas full/incremental via stored procedures en SQL Warehouse.",
+        "🔁 Orquestación y control de errores con Pipelines Fabric."
       ],
       "stack": {
       "SQL Server": "simple-icons:liquibase",
@@ -265,16 +265,23 @@
 },
 
     {
-      "name": "Próximamente...",
-      "isActive": false,
-      "description": "El aprendizaje nunca termina, siempre hay que actualizarse a las últimas tendencias y estar comprometido con el desarrollo personal y profesional.",
+      "name": "Salmones JG",
+      "isActive": true,
+      "description": "Modelé y normalicé la base de datos, creando vistas en SQL y medidas en DAX. Implementé ingesta incremental en Python y visualizaciones en Power BI con conexión DirectQuery casi en tiempo real.",
       "highlights": [
-        "🐙 Sígueme en GitHub y Linkedin.",
-        "🚀 ¡Nuevos desafíos se aproximan!."
+        "🧮 Creación de vistas SQL y medidas DAX.",
+        "🔁 Ingesta incremental con Python.",
+        "⚡ DirectQuery para visualizaciones dinámicas.",
+        "📊 Dashboards con métricas clave e insights."
       ],
       "stack": {
-        
-      }     
+      "SQL Server": "simple-icons:liquibase",
+      "Python": "simple-icons:python",
+      "Power BI": "simple-icons:powerbi",
+      "DAX": "mdi:chart-line",
+      "ETL": "mdi:data-matrix"
+      },
+      "url": "https://github.com/JulianVargas24/Analisis-datos-SalmonesJG"
     },
         {
       "name": "POS Mline",
