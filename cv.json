@@ -207,10 +207,27 @@
     {
       "name":"ETL",
       "icon": "mdi:data-matrix"
+    },
+
+     {
+      "name":"PySpark",
+      "icon": "simple-icons:apachespark"
+    },
+
+     {
+      "name":"KQL",
+      "icon": "simple-icons:liquibase"
+    },
+
+     {
+      "name":"DataFlow",
+      "icon": "simple-icons:apacheairflow"
+    },
+      
+    {
+      "name":"Pipelines",
+      "icon": "simple-icons:jfrogpipelines"
     }
-    
-
-
   ],
   "languages": [
     {
