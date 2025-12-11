@@ -263,7 +263,20 @@
   },
   "url": "https://github.com/JulianVargas24/Analisis-datos-Churn-retencion-retail"
 },
+
     {
+      "name": "Próximamente...",
+      "isActive": false,
+      "description": "El aprendizaje nunca termina, siempre hay que actualizarse a las últimas tendencias y estar comprometido con el desarrollo personal y profesional.",
+      "highlights": [
+        "🐙 Sígueme en GitHub y Linkedin.",
+        "🚀 ¡Nuevos desafíos se aproximan!."
+      ],
+      "stack": {
+        
+      }     
+    },
+        {
       "name": "POS Mline",
       "isActive": true,
       "description": "Sistema de Punto de Venta (POS) para pymes que centraliza ventas, inventario, descuentos y control de vencimientos, con roles de usuario. Permite emitir boletas/facturas en PDF con código de barras y generar reportes para la administración.",
@@ -286,6 +299,7 @@
       },
       "url": "https://github.com/JulianVargas24/POS-MLINE"
     },
+
     {
       "name": "Próximamente...",
       "isActive": false,
