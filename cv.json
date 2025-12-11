@@ -229,15 +229,16 @@
       "description": "Ingesta incremental y full load en Lakehouse; transformaciones con PySpark y análisis en SQL Warehouse, orquestado con Pipelines Fabric.",
       "highlights": [
         "📥 Ingesta desde Azure Data Lake con PySpark.",
-        "🔄 Arquitectura medallón: Bronze → Silver → Gold.",
-        "🗄️ Cargas full/incremental en Lakehouse y Warehouse.",
-        "🔁 Orquestación y control de errores con Pipelines.",
+        "🔄 Arquitectura: Bronze → Silver → Gold.",
+        "🗄️ Cargas full/incremental para los datos.",
+        "🔁 Orquestación y control con Pipelines.",
         "✨ Y más..."
       ],
       "stack": {
       "PySpark": "simple-icons:apachespark",
       "KQL": "simple-icons:liquibase",
       "DataFlow": "simple-icons:apacheairflow",
+      "Pipelines": "simple-icons:jfrogpipelines",
       "Power BI": "simple-icons:powerbi",
       "ETL": "mdi:data-matrix"
       },
