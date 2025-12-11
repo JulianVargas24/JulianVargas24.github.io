@@ -228,19 +228,20 @@
       "isActive": true,
       "description": "Ingesta incremental y full load en Lakehouse; transformaciones con PySpark y análisis en SQL Warehouse, orquestado con Pipelines Fabric.",
       "highlights": [
-        "📥 Ingesta CSV desde Azure Data Lake con PySpark.",
-        "🔄 Bronze → Silver → Gold; merge_delta_lake para incremental.",
-        "🗄️ Cargas full/incremental via stored procedures en SQL Warehouse.",
-        "🔁 Orquestación y control de errores con Pipelines Fabric."
+        "📥 Ingesta desde Azure Data Lake con PySpark.",
+        "🔄 Arquitectura medallón: Bronze → Silver → Gold.",
+        "🗄️ Cargas full/incremental en Lakehouse y Warehouse.",
+        "🔁 Orquestación y control de errores con Pipelines.",
+        "✨ Y más..."
       ],
       "stack": {
-      "SQL Server": "simple-icons:liquibase",
-      "Python": "simple-icons:python",
+      "PySpark": "simple-icons:apachespark",
+      "KQL": "simple-icons:liquibase",
+      "DataFlow": "simple-icons:apacheairflow",
       "Power BI": "simple-icons:powerbi",
-      "DAX": "mdi:chart-line",
       "ETL": "mdi:data-matrix"
       },
-      "url": "https://github.com/JulianVargas24/Analisis-datos-SalmonesJG"
+      "url": "https://github.com/JulianVargas24/Smart_device_Fabric"
     },
 {
   "name": "Churn y retención retail",
