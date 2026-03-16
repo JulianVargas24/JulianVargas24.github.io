@@ -258,13 +258,13 @@
   "projects": [
     
     {
-      "name": "Airflow Data Pipeline: Empleo en Chile",
+      "name": "Data Pipeline: Desempleo en Chile",
       "isActive": true,
       "description": "Ingesta y procesamiento de datos del Banco Central de Chile; análisis de empleo y desempleo usando arquitectura Medallion con Airflow y Docker.",
       "highlights": [
         "📥 Ingesta de datos desde API del Banco Central.",
         "🧱 Arquitectura: Bronze → Silver → Gold.",
-        "📊 Análisis de indicadores de empleo y desempleo en Chile.",
+        "📊 Análisis de indicadores de desempleo Chile.",
         "⚙️ Orquestación y control con Airflow.",
         "✨ Y más..."
       ],
