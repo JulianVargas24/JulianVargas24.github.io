@@ -227,7 +227,23 @@
     {
       "name":"Pipelines",
       "icon": "simple-icons:jfrogpipelines"
+    },
+
+    {
+      "name":"Pandas",
+      "icon": "simple-icons:pandas"
+    },
+
+    {
+      "name":"Docker",
+      "icon": "simple-icons:docker"
+    },
+
+    {
+      "name":"AirFlow",
+      "icon": "simple-icons:apacheairflow"
     }
+
   ],
   "languages": [
     {
@@ -240,6 +256,28 @@
     }
   ],
   "projects": [
+    
+    {
+      "name": "Airflow Data Pipeline: Empleo en Chile",
+      "isActive": true,
+      "description": "Ingesta y procesamiento de datos del mercado laboral desde el Banco Central de Chile; análisis de empleo y desempleo usando arquitectura Medallion con Airflow y Docker.",
+      "highlights": [
+        "📥 Ingesta de datos desde API del Banco Central de Chile.",
+        "🧱 Arquitectura: Bronze → Silver → Gold.",
+        "📊 Análisis de indicadores de empleo y desempleo en Chile.",
+        "⚙️ Orquestación y control con Airflow.",
+        "✨ Y más..."
+      ],
+      "stack": {
+      "Pandas": "simple-icons:pandas",
+      "Docker": "simple-icons:docker",
+      "AirFlow": "simple-icons:apacheairflow",
+      "Power BI": "simple-icons:powerbi",
+      "ETL": "mdi:data-matrix"
+      },
+      "url": "https://github.com/JulianVargas24/desempleo_banco_central"
+    },
+
     {
       "name": "Microsoft Fabric: Smart Device",
       "isActive": true,
@@ -261,27 +299,28 @@
       },
       "url": "https://github.com/JulianVargas24/Smart_device_Fabric"
     },
-{
-  "name": "Churn y retención retail",
-  "isActive": true,
-  "description": "Analítica de churn en retail con Python + SQL Server + Power BI (DirectQuery); pipeline automatizado que limpia/carga datos, calcula KPIs de riesgo y habilita acciones en tiempo casi real.",
-  "highlights": [
-    "🧹 Limpieza y preparación de datos en Python.",
-    "🗄️ Carga a SQL Server de tablas/vistas.",
-    "🧮 KPIs de riesgo y retención de clientes.",
-    "⚡ Power BI en DirectQuery.",
-    "🔁 Automatización script .bat + Task Scheduler.",
-    "📊 Dashboards para decisiones comerciales."
-  ],
-  "stack": {
-    "SQL Server": "simple-icons:liquibase",
-      "Python": "simple-icons:python",
-      "Power BI": "simple-icons:powerbi",
-      "DAX": "mdi:chart-line",
-      "ETL": "mdi:data-matrix"
-  },
-  "url": "https://github.com/JulianVargas24/Analisis-datos-Churn-retencion-retail"
-},
+
+    {
+      "name": "Churn y retención retail",
+      "isActive": true,
+      "description": "Analítica de churn en retail con Python + SQL Server + Power BI (DirectQuery); pipeline automatizado que limpia/carga datos, calcula KPIs de riesgo y habilita acciones en tiempo casi real.",
+      "highlights": [
+        "🧹 Limpieza y preparación de datos en Python.",
+        "🗄️ Carga a SQL Server de tablas/vistas.",
+        "🧮 KPIs de riesgo y retención de clientes.",
+        "⚡ Power BI en DirectQuery.",
+        "🔁 Automatización script .bat + Task Scheduler.",
+        "📊 Dashboards para decisiones comerciales."
+      ],
+      "stack": {
+        "SQL Server": "simple-icons:liquibase",
+          "Python": "simple-icons:python",
+          "Power BI": "simple-icons:powerbi",
+          "DAX": "mdi:chart-line",
+          "ETL": "mdi:data-matrix"
+      },
+      "url": "https://github.com/JulianVargas24/Analisis-datos-Churn-retencion-retail"
+    },
 
     {
       "name": "Salmones JG",
